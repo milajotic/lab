@@ -11,3 +11,15 @@
 ### 4. En port er et virtuelt endepunkt som brukes av programmer for å sende og motta data over et nettverk.
 
 ### 5. Det er nødvendig å åpne en port i UFW-brannmuren fordi UFW som standard blokkerer absolutt all innkommende trafikk, så applikasjoner som webservere eller spillservere forblir helt utilgjengelige for omverdenen inntil du eksplisitt åpner porten deres.
+
+DEL 2 - DATABASE
+
+### 6. Til å lage database man bruker kommando CREATE database [database navn] i mariadb
+
+### 7. Man bruker CREATE TABLE til å lage tabell.
+
+### 8. Til å sette in thing i tabellen man bruker INSERT INTO [navn til kolloner] VALUES [hva du vil sette in]
+
+### 9. Til å se alt i tabellen man bruker SELECT * FROM [tabell navn]
+
+### 10. Brukes til å filtrere hvilken data du vil se. SELECT [kollone navn] FROM [tabell] WHERE id = 1 (for eksempel)
