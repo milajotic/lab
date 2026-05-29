@@ -10,4 +10,4 @@
 
 ### 4. En port er et virtuelt endepunkt som brukes av programmer for å sende og motta data over et nettverk.
 
-### 5. Det er nødvendig fordi UFW som standard blokkerer absolutt all innkommende trafikk, så applikasjoner som webservere eller spillservere forblir helt utilgjengelige for omverdenen inntil du eksplisitt åpner porten deres.
+### 5. Det er nødvendig å åpne en port i UFW-brannmuren fordi UFW som standard blokkerer absolutt all innkommende trafikk, så applikasjoner som webservere eller spillservere forblir helt utilgjengelige for omverdenen inntil du eksplisitt åpner porten deres.
